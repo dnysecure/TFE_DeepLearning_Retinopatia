@@ -21,3 +21,14 @@ Este repositorio contiene el código fuente del Trabajo de Fin de Máster que co
    ```bash
    git clone https://github.com/dnysecure/TFE_DeepLearning_Retinopatia.git
    cd TFE_DeepLearning_Retinopatia
+   
+## Instalación y ejecución en Google Colab
+
+Para ejecutar este cuaderno en Google Colab con aceleración GPU, sigue estos pasos:
+
+1. Abre [Google Colab](https://colab.research.google.com/).
+2. Sube el archivo `TFE_Notebook_DeepLearning_Retinopatia.ipynb` desde tu ordenador o impórtalo directamente desde este repositorio usando la pestaña **GitHub**.
+3. En el menú superior, selecciona `Entorno de ejecución` → `Cambiar tipo de entorno de ejecución` y elige **GPU** como acelerador de hardware.
+4. Ejecuta la primera celda del cuaderno. Esta instalará automáticamente todas las dependencias necesarias (las mismas que aparecen en `requirements.txt`). Si prefieres instalarlas manualmente, puedes ejecutar en una celda:
+   ```python
+   !pip install -r https://raw.githubusercontent.com/dnysecure/TFE_DeepLearning_Retinopatia/refs/heads/main/requirements.txt
