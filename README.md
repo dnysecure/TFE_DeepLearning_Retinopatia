@@ -19,5 +19,5 @@ Este repositorio contiene el código fuente del Trabajo de Fin de Máster que co
 ## Requisitos de instalación
 1. Clonar el repositorio:
    ```bash
-   git clone https://github.com/donny-rodriguez/TFE_DeepLearning_Retinopatia.git
+   git clone https://github.com/dnysecure/TFE_DeepLearning_Retinopatia.git
    cd TFE_DeepLearning_Retinopatia
